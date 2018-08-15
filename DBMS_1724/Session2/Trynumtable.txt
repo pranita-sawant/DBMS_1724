@@ -1,0 +1,32 @@
+drop table TRYNUM;
+create table TRYNUM(
+first 	number,
+second  number (4),
+third   number (4,2)
+);
+
+rem  Ex.2.5
+insert into TRYNUM (first, second, third)
+values (987, 987, 987);
+insert into TRYNUM (first, second, third)
+values (987.222, 987.225, 987.225);
+insert into TRYNUM (first, second, third)
+values (98.5, 98.5, 98.5);
+insert into TRYNUM (first, second, third)
+values (98765, 98765, 98765);
+
+rem Supplementary Problem 2.7
+insert into TRYNUM (first, second, third)
+values (23.987, 23.987, 23.987);
+insert into TRYNUM (first, second, third)
+values (.00003, .00003, .00003);
+insert into TRYNUM (first, second, third)
+values (100.9, 100.9, 100.9);
+
+rem Solved Problem 2.7
+insert into TRYNUM (first, second, third)
+values (.00005, .00005, .00005);
+insert into TRYNUM (first, second, third)
+values (1.9, 1.9, 1.9);
+insert into TRYNUM (first, second, third)
+values (10.1, 10, 10);

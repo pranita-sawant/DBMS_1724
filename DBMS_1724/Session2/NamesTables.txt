@@ -1,0 +1,10 @@
+drop table NAMES;
+create table NAMES (
+FirstName     varchar2(25),
+LastName      varchar2(25)
+);
+
+insert into NAMES (FirstName, LastName)
+values ('THOMAS', 'JEFFERSON');
+insert into NAMES (FirstName, LastName)
+values (NULL, 'SOCRETES');

@@ -1,0 +1,129 @@
+DROP TABLE World_Cities CASCADE CONSTRAINTS;
+create table World_Cities (
+City         varchar2(25),
+Country      varchar2(25),
+Continent    varchar2(25),
+Latitude     number,
+NorthSouth   char(1),
+Longitude    number,
+EastWest     char(1)
+);
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('ATHENS','GREECE','EUROPE',37.59,'N',23.44,'E');
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('ATLANTA','UNITED STATES','NORTH AMERICA',33.45,'N',84.23,'W');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('DALLAS','UNITED STATES','NORTH AMERICA',32.47,'N',96.47,'W');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('NASHVILLE','UNITED STATES','NORTH AMERICA',36.09,'N',86.46,'W');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('VICTORIA','CANADA','NORTH AMERICA',48.25,'N',123.21,'W');
+
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('PETERBOROUGH','CANADA','NORTH AMERICA',44.18,'N',79.18,'W');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('VANCOUVER','CANADA','NORTH AMERICA',49.18,'N',123.04,'W');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('TOLEDO','UNITED STATES','NORTH AMERICA',41.39,'N',83.82,'W');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('WARSAW','POLAND','EUROPE',52.15,'N',21.00,'E');
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('LIMA','PERU','SOUTH AMERICA',12.03,'S',77.03,'W');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('RIO DE JANEIRO','BRAZIL','SOUTH AMERICA',22.43,'S',43.13,'W');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('SANTIAGO','CHILE','SOUTH AMERICA',33.27,'S',70.40,'W');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('BOGOTA','COLOMBIA','SOUTH AMERICA',04.36,'N',74.05,'W');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('BUENOS AIRES','ARGENTINA','SOUTH AMERICA',34.36,'S',58.28,'W');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('QUITO','ECUADOR','SOUTH AMERICA',00.13,'S',78.30,'W');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('CARACAS','VENEZUELA','SOUTH AMERICA',10.30,'N',66.56,'W');
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('MADRAS','INDIA','ASIA',13.05,'N',80.17,'E');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('NEW DELI','INDIA','ASIA',28.36,'N',77.12,'E');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('BOMBAY','INDIA','ASIA',18.58,'N',72.50,'E');
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('MANCHESTER','ENGLAND','EUROPE',53.30,'N',2.15,'W');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('LONDON','ENGLAND','EUROPE',51.30,'N',0.0,NULL);
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('MOSCOW','RUSSIA','EUROPE',55.45,'N',37.35,'E');
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('PARIS','FRANCE','EUROPE',48.52,'N',2.20,'E');
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('SHENYANG','CHINA','ASIA',41.48,'N',123.27,'E');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('CAIRO','EGYPT','AFRICA',30.03,'N',31.15,'E');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('TRIPOLI','LYBIA','AFRICA',32.54,'N',13.11,'E');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('BEIJING','CHINA','ASIA',39.56,'N',116.24,'E');
+
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('ROME','ITALY','EUROPE',41.54,'N',12.29,'E');
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('TOKYO','JAPAN','ASIA',35.42,'N',139.46,'E');
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('SYDNEY','AUSTRALIA','AUSTRALIA',33.52,'S',151.13,'E');
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('SPARTA','GREECE','EUROPE',37.05,'N',22.27,'E');
+insert into World_Cities (City,Country,Continent,Latitude,
+                      NorthSouth,Longitude,EastWest)
+values ('MADRID','SPAIN','EUROPE',40.24,'N',3.41,'W');

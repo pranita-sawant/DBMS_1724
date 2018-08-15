@@ -1,0 +1,15 @@
+drop table mult;
+create table mult
+(
+	first	number,
+	second	number
+);
+
+insert into mult
+values (987,2);
+insert into mult
+values (22,NULL);
+insert into mult
+values (NULL,35);
+insert into mult
+values (5,4);

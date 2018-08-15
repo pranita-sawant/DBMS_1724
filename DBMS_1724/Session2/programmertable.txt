@@ -1,0 +1,35 @@
+DROP TABLE programmer CASCADE CONSTRAINTS;
+Create table Programmer
+  (EmpNo  Varchar2(3)  		PRIMARY KEY,
+  Last_Name Varchar2(25)  	NOT NULL,
+  First_Name Varchar2(25),
+  Hire_Date Date,
+  Project Varchar2(3),
+  Language Varchar2(15),
+  TaskNo  Number(2),
+  Clearance Varchar2(25)
+ );
+
+INSERT INTO programmer
+(EmpNo, Last_Name, First_Name, Hire_Date, Project, Language, TaskNo, Clearance)
+Values('201','Campbell', 'John', '1-JAN-95',	'NPR', 'VB',52, 'Secret');
+INSERT INTO programmer
+(EmpNo, Last_Name, First_Name, Hire_Date, Project, Language, TaskNo, Clearance)
+Values('390', 'Bell', 'Randall', '1-MAY-93', 'KCW', 'Java', 11, 'Top Secret');
+INSERT INTO programmer
+(EmpNo, Last_Name, First_Name, Hire_Date, Project, Language, TaskNo, Clearance)
+Values('789', 'Hixon', 'Richard', '31-AUG-98', 'RNC', 'VB', 11, 'Secret');
+INSERT INTO programmer
+(EmpNo, Last_Name, First_Name, Hire_Date, Project, Language, TaskNo, Clearance)
+Values('134','McGurn',	'Robert', '15-JUL-95', 'TIP',	'C++',	52, 'Secret');
+INSERT INTO programmer
+(EmpNo, Last_Name, First_Name, Hire_Date, Project, Language, TaskNo, Clearance)
+Values('896','Sweet', 'Jan', '15-JUN-97', 'KCW',	'Java',	10, 'Top Secret');
+INSERT INTO programmer
+(EmpNo, Last_Name, First_Name, Hire_Date, Project, Language, TaskNo, Clearance)
+Values('345',' Rowlett', 'Sid', '15-NOV-99', 'TIP',	'Java',	52, NULL);
+INSERT INTO programmer
+(EmpNo, Last_Name, First_Name, Hire_Date, Project, Language, TaskNo, Clearance)
+Values('563', 'Herdon', 'Andy', '15-AUG-94', 'NIT', 'C++', 89, 'Confidential');
+
+

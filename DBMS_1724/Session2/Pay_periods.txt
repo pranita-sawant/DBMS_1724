@@ -1,0 +1,31 @@
+drop table PAY_PERIODS;
+create table PAY_PERIODS(
+first_check   date,
+second_check  date
+);
+
+insert into PAY_PERIODS(first_check,second_check) 
+values ('14-JAN-00','28-JAN-00');
+insert into PAY_PERIODS(first_check,second_check) 
+values ('16-FEB-00','29-FEB-00');
+insert into PAY_PERIODS(first_check,second_check) 
+values ('16-MAR-00','30-MAR-00');
+insert into PAY_PERIODS(first_check,second_check) 
+values ('14-APR-00','28-APR-00');
+insert into PAY_PERIODS(first_check,second_check) 
+values ('16-MAY-00','30-MAY-00');
+insert into PAY_PERIODS(first_check,second_check) 
+values ('16-JUN-00','30-JUN-00');
+insert into PAY_PERIODS(first_check,second_check) 
+values ('14-JUL-00','28-JUL-00');
+
+insert into PAY_PERIODS(first_check,second_check) 
+values ('16-AUG-00','30-AUG-00');
+insert into PAY_PERIODS(first_check,second_check) 
+values ('15-SEP-00','29-SEP-00');
+insert into PAY_PERIODS(first_check,second_check) 
+values ('16-OCT-00','30-OCT-00');
+insert into PAY_PERIODS(first_check,second_check) 
+values ('16-NOV-00','30-NOV-00');
+insert into PAY_PERIODS(first_check,second_check) 
+values ('15-DEC-00','29-DEC-00');

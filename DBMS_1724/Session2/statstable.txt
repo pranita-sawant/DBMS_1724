@@ -1,0 +1,15 @@
+DROP TABLE STATS;
+CREATE TABLE stats 
+( even		number,
+  odd 		number
+);
+
+insert into stats values(2,1);
+insert into stats values(NULL,3);
+insert into stats values(6,5);
+insert into stats values(8, NULL);
+insert into stats values(10,9);
+insert into stats values(NULL,11);
+insert into stats values(14,NULL);
+insert into stats values(16,15);
+
